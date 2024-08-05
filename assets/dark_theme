@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Use viewport height to make full use of available vertical space */
+}
+
+.header {
+    flex: 0 1 auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.grid-container {
+    flex: 1 1 auto;
+    overflow: hidden; /* Prevents the grid from overflowing the container */
+}
+
+.controls {
+    padding: 10px;
+    background-color: #444;
+}
+
+body {
+    background-color: #333 !important;
+    color: #ccc !important;
+}
+
+/* Styling for the ag-grid */
+.ag-root {
+    font-family: Arial, sans-serif !important;
+}
+
+.ag-header {
+    background-color: #2c2f33 !important;
+    color: #ffffff !important;
+}
+
+
+.ag-row {
+    background-color: #202225 !important;
+    color: #ffffff !important;
+}
+
+.ag-row-odd {
+    background-color: #2c2f33 !important;
+}
+
+.ag-cell, .ag-header-cell {
+    color: #ccc !important;
+    border-color: #444 !important;
+
+}
+
+.ag-root-wrapper {
+    border-color: #444 !important;
+}
+
+/* Inputs and buttons */
+input, select, .DateInput, .SingleDatePicker, .DateRangePicker {
+    background-color: #555 !important; /* Darker background for inputs */
+    color: #ddd !important; /* Light text color for visibility */
+    border: 1px solid #666 !important; /* Slightly lighter border for definition */
+    padding: 5px !important;
+    border-radius: 4px !important;
+}
+
+input::placeholder, select::placeholder {
+    color: #bbb !important; /* Lighter placeholder text that is clearly visible */
+}
+
+button {
+    background-color: #4c6ef4 !important; /* Button background */
+    color: white !important; /* Button text color */
+    border: none !important;
+    padding: 8px 12px !important;
+    margin: 5px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+}
+
+button:hover {
+    background-color: #3658c4 !important; /* Darker on hover for buttons */
+}

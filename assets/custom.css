@@ -1,0 +1,173 @@
+/************** Maintine Related CSS **************/
+/* Data input navigation pane text */
+.mantine-v2d0vk {
+    font-size:20px;
+}
+
+/* fixes issue with calendar */
+.mantine-1nw5k7j {
+    max-width:100vw;
+}
+
+/* multi select adjustments required */
+.mantine-6n522u {
+    border-radius:0;
+    border-width:3px;
+}
+
+/* multi select adjustments not required*/
+.mantine-1yeg49y {
+    border-radius:0;
+}
+
+/* dropdown placeholder text */
+.mantine-j220w7 {
+    font-size:20px;
+}
+
+/* update simple grid xl spacing */
+.mantine-xroxtq {
+    gap: 5%;
+}
+
+/* Set a maximum quill editor height, overflow-y
+is already set to scroll */
+.ql-editor {
+    max-height: 250px;
+}
+
+/* Set maximum height for loading overlay so it doesn't
+fall outside the button */
+.mantine-137kca9 {
+    max-height: 37px;
+}
+
+/* Remove red box and use only asterisk */
+input:invalid {
+    outline: none !important;
+}
+
+
+/**************** Miscellaneous CSS ****************/
+/* This is needed for in table dropdown to work */
+.Select-menu-outer {
+    display : block !important;
+    }
+
+
+/**************** Agrid CSS ****************/
+/* Change header when a filter is applied */
+.ag-header-cell-filtered {
+    background-color: #1b6d85 !important;
+    color: #fff !important;
+  }
+  
+  .ag-header-cell-filtered span {
+    color: #fff !important;
+  }
+  
+/*  Center the progress bar vertically in P&V Table */
+.ag-cell {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  .progress {
+    width: 100% !important;
+  }
+  
+  .progress-bar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    color: white !important;
+  }
+  
+  /* Prevent Line Breaks Mid Word  */
+  .ag-cell-wrap-text {
+    white-space: normal;
+    word-break: break-word !important;
+}
+
+.cell-span {
+    background-color: #20293D;
+    border-color: azure;
+    color: white;
+}
+
+.rubric-facility-selector {
+    color: white;
+}
+
+td.dash-cell.cell--selected.focused {
+    background-color: transparent !important;
+}
+
+/* Hide the scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+
+/*Tunnel Operational Status Revamp*/
+.tunnel-status-accordion:hover{
+    background-color: #29517a;
+}
+
+
+
+/* Dash Design Kit Migration */
+:root {
+    --body-text: #20293D;
+    --accent: #3f4f75;
+    --font-family: 'Open Sans', sans-serif;
+    --font-size: 17px;
+    --link-hover-color: #357e94; /* The accent_positive color for link hover */
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--body-text);
+    font-size: var(--font-size);
+}
+
+a {
+    color: var(--accent); /* This sets the hyperlink color */
+    text-decoration: none; /* This removes the underline from links */
+}
+
+a:hover {
+    color: var(--link-hover-color); /* This changes the color of the link on hover */
+}
+
+h {
+    color: var(--accent); /* This sets the hyperlink color */
+    text-decoration: none; /* This removes the underline from links */
+}
+
+h:hover {
+    color: var(--link-hover-color); /* This changes the color of the link on hover */
+}
+
+:root {
+    --background-page: #EEF0F2; /* Light grey background for the page */
+}
+
+body {
+    background-color: var(--background-page); /* This sets the background color of the entire page */
+}
+
+/* Create Custom Tab Class */
+.custom-tablist .mantine-Tabs-tabLabel {
+    width: 15vw; /* Set your desired width */
+    white-space: normal; /* Allow text to wrap */
+    font-size: 24px; /* Set your desired font size */
+    font-weight: 500; /* Set your desired font weight */
+  } 
+
+
